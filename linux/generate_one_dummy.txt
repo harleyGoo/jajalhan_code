@@ -1,0 +1,9 @@
+# memo
+
+# 1. 랜덤한 base64(영어, 숫자, 기호)로 채워진 100MB짜리 파일을 생성하는 커맨드
+cat /dev/urandom | base64 | head -c 100m > 100M_dummy.txt
+
+# 2. 문자열로 채워지지 않은 파일을 생성하는 커맨드
+dd if=/dev/zero of=10G.dummy bs=1G count=10 #10GB
+dd if=/dev/zero of=100M.dummy bs=1M count=100 #100MB
+
