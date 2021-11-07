@@ -1,0 +1,13 @@
+# diff 커맨드 응용: 한쪽(a.txt)의 파일에 대한 결과만 표시하기, 화살표를 표시하지 않기
+diff --changed-group-format='%>' --unchanged-group-format='' b.txt a.txt
+
+# cp 커맨드 응용: 덮어쓰기를 묻지 않기
+\cp -f settingfile /tmp/settingfile
+
+
+# ls 커맨드 옵션: 작성시간 역순으로 조회하기
+ls -ltr
+
+# rm 커맨드 옵션: 비어있지 않은 폴더를 삭제
+# (폴더삭제 커맨드로 rmdir가 있지만 폴더 안에 다른 파일 혹은 폴더가 있는 경우 'rmdir: failed to remove 'test': Directory not empty'라고 표시된다.)
+rm -rf folder1
