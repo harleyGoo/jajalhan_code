@@ -1,3 +1,5 @@
+package java.GetCoinCnt;
+
 class Main {
   public static void main(String[] args) {
     int n = 1260;
