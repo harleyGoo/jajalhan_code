@@ -1,4 +1,4 @@
-package java.GetCoinCnt;
+package java.getCoinCnt;
 
 class Main {
   public static void main(String[] args) {

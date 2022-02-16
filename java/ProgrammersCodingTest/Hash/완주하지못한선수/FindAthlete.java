@@ -1,4 +1,4 @@
-package java.ProgrammersCodingTest.Hash.완주하지못한선수;
+package java.programmersCodingTest.Hash.완주하지못한선수;
 
 import java.util.HashMap;
 
