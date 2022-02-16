@@ -1,4 +1,4 @@
-package java.BigInt;
+package java.bigInt;
 
 import java.util.Scanner;
 

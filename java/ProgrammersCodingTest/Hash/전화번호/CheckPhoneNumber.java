@@ -1,4 +1,4 @@
-package java.ProgrammersCodingTest.Hash.전화번호;
+package java.programmersCodingTest.Hash.전화번호;
 
 import java.util.Arrays;
 
