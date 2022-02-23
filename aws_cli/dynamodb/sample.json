@@ -1,0 +1,20 @@
+{
+  "UserInformationId": {
+    "S": "USER00001"
+  },
+  "UserId": {
+    "S": "userid"
+  },
+  "UserPassword": {
+    "S": "userpassword"
+  },
+  "FirstName": {
+    "S": "Harley"
+  },
+  "SirName": {
+    "S": "Goo"
+  },
+  "CreateDateTime": {
+    "S": "2022-02-22 18:30:00"
+  }
+}

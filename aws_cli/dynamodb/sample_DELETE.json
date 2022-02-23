@@ -1,0 +1,28 @@
+{
+  "dummy-table": [
+    {
+      "DeleteReqeust": {
+        "Key": {
+          "UserInformationId": {
+            "S": "USER00001"
+          },
+          "UserId": {
+            "S": "userid"
+          }
+        }
+      }
+    },
+    {
+      "DeleteReqeust": {
+        "Key": {
+          "UserInformationId": {
+            "S": "USER00002"
+          },
+          "UserId": {
+            "S": "userid2"
+          }
+        }
+      }
+    }
+  ]
+}
