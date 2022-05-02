@@ -1,0 +1,27 @@
+리액트가 좋은 점
+ 1. SPA사이트로 페이지 전환이 부드러운 처리가 가능
+ 2. component 기능으로 HTML재사용이 편리
+ 3. state 기능으로 서버데이터를 HTML에 자동반영해서 렌더링 가능
+ 4. 사용량이 많다.
+
+React Native로 어플로 만들 수 있음.
+
+개발환경 셋팅
+1. nodejs 설치 (npm도 설치됨)
+2. vscode 설치
+3. 프로젝트 생성
+  - 폴더 생성
+  - bash에서 "npx create-react-app 프로젝트명" 실행
+  - 허가되지 않은 스크립트 어쩌구: 관리자 권한으로 bash 실행
+    "Set-ExecutionPolicy Unrestricted" 실행 후 리트라이
+4. 생성된 폴더를 vscode로 열기
+5. 미리보기: npm start
+
+생성된 폴더 설명
+- node_modules: 모든 라이브러리 소스코드가 있는 곳
+- public: index.html, 이미지 파일 등 (static) 보관하는 곳
+- src: 소스 짜는 곳
+- package.json: 프로젝트정보 기입하는 파일 (자동생성)
+
+출처: https://www.youtube.com/watch?v=00yJy7W0DQE
+참고: https://create-react-app.dev/
