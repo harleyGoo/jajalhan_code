@@ -37,7 +37,7 @@ public class addTwoNumbers {
       }
       tmpLn = tmpLn.next;
     }
-    // 
+    // Make the StringBuilder reverse and convert to String
     String strLn = sb.reverse().toString();
     Long result = Long.parseLong(strLn);
 
