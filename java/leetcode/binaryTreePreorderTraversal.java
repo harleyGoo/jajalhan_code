@@ -1,6 +1,7 @@
 package java.leetcode;
 
-import java.util.ArrayList;
+// import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 // https://leetcode.com/problems/binary-tree-preorder-traversal/description/
@@ -9,11 +10,23 @@ import java.util.List;
 
 public class binaryTreePreorderTraversal {
   public List<Integer> preorderTraversal(TreeNode root) {
-    List<Integer> result = new ArrayList<>();
-    if (root == null) {
+		List<Integer> result = new LinkedList<Integer>();
+		if (root == null) {
       return result;
     }
-    return traverse(root, result);
+		result.add(root.val);
+		result.addAll(preorderTraversal(root.left));
+		result.addAll(preorderTraversal(root.right));
+    return result;
+
+    // 내가 처음 작성했던 솔루션
+    // public List<Integer> preorderTraversal(TreeNode root) {
+    // List<Integer> result = new ArrayList<>();
+    // if (root == null) {
+    //   return result;
+    // }
+    // return traverse(root, result);
+    // }
   }
 
   public List<Integer> traverse(TreeNode root, List<Integer> result) {
@@ -31,3 +44,4 @@ public class binaryTreePreorderTraversal {
 }
 
 // 한번에 100% 찍었다.
+// (2025.05.25) 더 간단한 코드로 업뎃.
