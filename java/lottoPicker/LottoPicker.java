@@ -1,4 +1,4 @@
-package java.lotterPicker;
+package java.lottoPicker;
 
 import java.util.Scanner;
 import java.util.Random;
